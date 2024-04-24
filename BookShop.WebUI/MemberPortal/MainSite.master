@@ -1,0 +1,98 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MainSite.master.cs" Inherits="MemberPortal_MainSite" %>
+<%@ Register Src="~/Controls/UserLoginNavigator.ascx" TagName="UserLoginNavigator" TagPrefix="ucl" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+    <title>我的购物网首页</title>
+    <link href="./image/top.css" type="text/css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">   
+    <div id="top" align="center">
+        <table border="0" cellspacing="0" cellpadding="0" align="center" style="width: 975px">
+            <tr>
+                <td align="center" height="60" width="100">
+                    <img src="~/MemberPortal/image/logo.gif" runat="server" />
+                </td>
+                <td>
+                    <asp:HyperLink ID="HyperLink4" runat="server" NavigateUrl="../Default.aspx" Text="首页"
+                        CssClass="top-menu1" />
+                    <asp:HyperLink ID="HyperLink5" runat="server" NavigateUrl="~/MemberPortal/ShoppingCart.aspx"
+                        Text="我的当当" CssClass="top-menu2" />
+                    <asp:HyperLink ID="HyperLink6" runat="server" NavigateUrl="~/MemberPortal/BookLists.aspx"
+                        Text="图书分类" CssClass="top-menu3" />
+                </td>
+                <td class="text" align="right">
+                    <ucl:UserLoginNavigator ID="UserLoginNavigator" runat="server" />
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div align="center">
+        <table id="01" cellpadding="0" cellspacing="0" class="search">
+            <tr>
+                <td rowspan="2" class="search-bg1">
+                    &nbsp;
+                </td>
+                <td class="search-bg2">
+                    <div class="search-hotkeyword">
+                        图书分类： 程序设计 | Web开发 | 数据库管理</div>
+                </td>
+                <td class="search-bg4">
+                    &nbsp;
+                </td>
+                <td class="search-bg5">
+                    <div class="search-hotkeyword">
+                        热门搜索词： C# | ASP.NET | SQL Server</div>
+                </td>
+                <td rowspan="2" class="search-bg6">
+                    &nbsp;
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3" class="search-bg3">
+                    <div class="search-navpath">
+                        <span>现在位置： </span>
+                        <asp:SiteMapPath ID="SiteMapPath1" SiteMapProvider="MemberPortalWeb" runat="server">
+                        </asp:SiteMapPath>
+                    </div>
+                    <div class="search-body">
+                        <span class="bold-13">图书搜索：</span><span><asp:TextBox ID="txtSearchKeyWord" runat="server"
+                            CssClass="search-inputtext" /></span> <span>
+                                <asp:Button ID="btnSearch" runat="server" Text="搜索" 
+                            CssClass="search-button" onclick="btnSearch_Click" />|<asp:Button
+                                    ID="btnAdvancedSearch" runat="server" Text="高级搜索" CssClass="search-button" /></span></div>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <!--头部结束-->
+    <div>
+        <div id="middle" align="center">
+            <!-- InstanceBeginEditable name="EditRegion3" -->
+            <table width="950" border="0" cellspacing="0" cellpadding="0" align="center">
+                <tr>
+                    <td valign="top">
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </td>
+                </tr>
+            </table>
+            <!-- InstanceEndEditable -->
+        </div>
+    </div>
+    <!--尾部开始-->
+    <div align="center">
+        <img src="~/MemberPortal/image/index-end.jpg" vspace="10" runat="server"></div>
+    <div id="end" align="center">
+        Copyright &copy;当当网 2004-2009, All Rights Reserved. Powered By GreatSoft Corp.&nbsp;&nbsp;<img
+            src="~/MemberPortal/image/validate.gif" align="absmiddle" runat="server">&nbsp;&nbsp;
+        苏<a href="http://www.miibeian.gov.cn" target="_blank">ICP证041189号</a></div>
+    <!--尾部结束-->
+    </form>
+</body>
+</html>

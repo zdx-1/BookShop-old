@@ -1,0 +1,392 @@
+﻿
+*{padding:0;margin:0}
+
+img{border:0}
+
+body
+{
+    font-family: 宋体, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    text-align: left;
+}
+
+td{font-size:12px;line-height:20px;COLOR: #414141;}
+
+
+
+.t1 a:link,.t1 a:visited{ color:#0041D3; text-decoration:none}
+.t1 a:hover{ color:#ff7000; text-decoration:none}
+.t1 a:active{ color:#bc2931; text-decoration:none}
+
+
+/*顶部CSS开始*/
+.A1{font-size:12px;text-decoration:none;color:#0041D3; margin-right:5px; margin-left:5px;}
+.A1:hover{font-size:12px;text-decoration:none;color:#ff7000;}
+.text
+{
+    font-size: 12px;
+    color: #666666;
+    font-family: 宋体, Arial, Helvetica, sans-serif;
+}
+.top-menu1
+{
+    font-size: 13px;
+    color: #ffffff;
+    width: 131px;
+    padding-top: 5px;
+    height: 27px;
+    background-image: url(top-bg11.jpg);
+    text-align: center;
+    text-decoration: none;
+    line-height: 20px;
+    display:block;
+    float:left;
+    margin-left:25px;
+}
+.top-menu1:hover
+{
+    font-size: 13px;
+    color: #ffffff;
+    width: 131px;
+    padding-top: 5px;
+    height: 27px;
+    background-image: url(top-bg12.jpg);
+    text-align: center;
+    text-decoration: none;
+    line-height: 20px;
+    margin-left:25px;
+}
+.top-menu2{float:left;display:block;font-size:13px;color:#ffffff;width: 131px; PADDING-TOP: 5px; HEIGHT: 27px;background-image:url(top-bg21.jpg);text-align:center; text-decoration:none;line-height:20px;}
+.top-menu2:hover{font-size:13px;color:#ffffff;width: 131px; PADDING-TOP: 5px; HEIGHT: 27px;background-image:url(top-bg22.jpg);text-align:center; text-decoration:none;line-height:20px;}
+.top-menu3{float:left;display:block;font-size:13px;color:#ffffff;width: 131px; PADDING-TOP: 5px; HEIGHT: 27px;background-image:url(top-bg31.jpg);text-align:center; text-decoration:none;line-height:20px;}
+.top-menu3:hover{font-size:13px;color:#ffffff;width: 131px; PADDING-TOP: 5px; HEIGHT: 27px;background-image:url(top-bg32.jpg);text-align:center; text-decoration:none;line-height:20px;}
+.top-gray{font-size:13px;color:#000000;width: 131px; PADDING-TOP: 5px; HEIGHT: 27px;background-image:url(top-gray.jpg);text-align:center; text-decoration:none;line-height:20px;}
+.top-gray:hover{font-size:13px;color:#000000;width: 131px; PADDING-TOP: 5px; HEIGHT: 27px;background-image:url(top-gray.jpg);text-align:center; text-decoration:none;line-height:20px;}
+
+
+/*顶部CSS结束*/
+
+/*内页CSS样式表开始*/
+A {
+	COLOR: #06329b; font-size:12px;TEXT-DECORATION: none;line-height:20px;
+}
+A:hover {
+	COLOR: #cc0000;  font-size:12px;TEXT-DECORATION: none;line-height:20px;
+}
+
+li
+{
+    margin: 10px;
+}
+.A2{COLOR: #414141; font-size:12px;TEXT-DECORATION: none;line-height:20px;}
+
+/*左侧栏目样式*/
+
+.booktype-headerbg
+{
+    background-image:url(index-bg-center.gif);
+}
+
+/*注册页面文本框样式、提交按扭样式*/
+
+.submit
+{
+    padding: 0px;
+    border-bottom: 1 #cccccc 
+
+/*注册页面文本框样式、提交按扭样式*/
+
+.submit
+{
+    padding: 0px;
+    border-bottom: 1 #cccccc solid;
+    border-right: 1 #cccccc solid;
+    border-top: 0 #cccccc solid;
+    border-left: 0 #cccccc solid;
+    font-size: 12px;
+    background-color: #D3EAF3;
+}
+
+;
+}
+
+EXT-DECORATION: none;line-height:20px;}
+.white-12{font-size:12px;color:#FFFFFF;padding-top:5px;}
+.white-13{font-size:13px;color:#FFFFFF;padding-top:5px;
+font-weight:bold;}
+.border-lr
+{
+    border-right-width: 1px;
+    border-left-width: 1px;
+    border-right-color: #CFC7B2;
+    border-right-style: solid;
+    border-left-style: solid;
+    border-left-color: #CFC7B2;
+}
+.border-rb
+{
+    border-bottom: 1 #CCCCCC solid;
+    padding-left: 10px;
+    text-align: left;
+}
+.border-rb1
+{
+    border-bottom: 1 #CCCCCC solid;
+    border-right: 1 #CCCCCC solid;
+    height: 25px;
+    text-align: right;
+    width: 180px;
+    background-color: #D3EAF3;
+
+    padding-top: 5px;
+}
+.border-lrb{border-bottom:1 #CCCCCC solid;border-right:1 #CCCCCC solid;border-left:1 #CCCCCC solid;padding-left:5px;padding-right:5px;}
+.bottom
+{
+    border-bottom: 1px;
+    line-height: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #CFC7B2;
+    border-bottom-width: 1px;
+}
+
+
+.bigtuhuang
+{
+    font-weight: bold;
+    font-size: 13px;
+    color: #c49238;
+    text-align: left;
+}
+.bigtuhuang:hover {
+	FONT-WEIGHT: bold; FONT-SIZE: 13px; COLOR: #c49238; text-decoration:none}
+.blue {
+	COLOR: #669dc6;FONT-WEIGHT: bold;
+}
+.yellow-bigbold {font-weight: bold;color: #f37114;font-size:13px;line-height:25px;}
+.border-yellow{border:1 #CDCD99 solid;}
+.bold{color:#000000;font-size:13px;FONT-WEIGHT: bold; }
+.font-scroll{width:20px; text-align:center; padding-top:1px;cursor:hand;border:1 #414141 solid; font-size:10px;line-height:12px;}
+.product-border{border-bottom:1 #cccccc  solid;border-left:1 #cccccc  solid;border-right:1 #cccccc solid;}
+.line-middle{text-decoration:line-through;}
+
+/*购物车结算按扭样式、文本框样式*/
+.shopping{background-image:url(balance.gif);width:103px;height:36px;border:0; }
+.input1{border:1 #CCCCCC solid; font-size:12px;width:30px; height:20px;text-align:center;padding-top:3px;}
+/*图片购买按扭样式表*/
+.sale{background-image:url(sale.gif);width:84px;height:24px;border:0; }
+
+.middle
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/*登录页面样式表*/
+.login-left
+{
+    padding: 30px 50px 20px 50px;
+    float: left;
+    line-height: 22px;
+    width: 55%;
+}
+.login-left ul{ list-style-type:none;  text-align:left;}
+.login-left ul li{ list-style-type:none;  text-align:left; font-size:16px; font-weight:bold;}
+.login-right{padding-top:20px; float:right;margin-right:30px;}
+.login-top
+{
+    padding: 0px;
+    margin: 0px;
+    background: url(login_top.gif) no-repeat;
+    overflow: hidden;
+    width: 279px;
+    height: 8px;
+}
+.login-mid
+{
+    border-right: #7a7977 1px solid;
+    border-left: #7a7977 1px solid;
+.login-top
+{
+    padding: 0px;
+    margin: 0px;
+    background: url(login_top.gif) no-repeat;
+    overflow: hidden;
+    width: 279px;
+    }
+HEIGHT: 8px}
+.notice {text-align:center; FONT-WEIGHT: bold; COLOR: #fa0404; PADDING-TOP: 12px; HEIGHT: 30px}
+.main
+{
+    border-top: #afaba8 1px dashed;
+    margin-left: 15px;
+    width: 250px;
+    border-bottom: #afaba8 1px dashed;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.login-main
+{
+    margin-right:20px;
+    margin-left:20px;
+}
+.login-input
+{
+    margin: 5px 0px 0px 0px;
+    border: 1 #cccccc solid;
+    font-size: 12px;
+    width: 120px;
+    height: 18px;
+}
+.login-input2
+{
+    border: 1 #cccccc solid;
+    font-size: 12px;
+    margin-top: 5px;
+    margin-top: 10px;
+ 
+.login-input
+{
+    margin: 5px 0px 0px 0px;
+    border: 1 #cccccc solid;
+    font-size: 12px;
+    }
+  border-top: 0 #cccccc solid;
+    border-left: 0 #cccccc solid;
+    font-size: 12px;
+    width: 47px;
+    height: 23px;
+    background-repeat: repeat-x;
+    background-image: url(right-menu1.gif);
+    color: #FFFFFF;
+    border-color: #FFFFFF;
+    font-weight: bold;
+}
+.login-dl
+{
+    margin-top: 10px;
+    margin-right: 25px;
+}
+
+.login-end{padding-left:20px;padding-top:20px;padding-bottom:20px;font-size:13px;font-weight:bold;}
+
+
+/*搜索面板*/
+.search{
+ width:985px;
+ height: 85px;
+ border:0;
+ vertical-align:middle;
+
+}
+
+.search-navpath {
+ width:400px;
+ margin-top:5px;
+ margin-left: 25px;
+ float:left;
+ text-align:left;
+ vertical-align:middle;	
+}
+
+
+.search-body {
+ width:500px;
+ margin-top:5px;
+ margin-right: 10px;
+ float:right;
+ text-align:right;
+ vertical-align:top;	
+}
+
+.search-hotkeyword
+{
+    width: 300px;
+    margin-left: 25px;
+    margin-top: 5px;
+    text-align: left;
+}
+
+
+.search-inputtext{
+  margin-left:10px;
+  vertical-align:top;
+  border:1 #cccccc solid; 
+  font-size:12px;
+  
+
+}
+
+
+.search-dropdownlist{
+  width:150px;
+  margin-left:10px;
+}
+
+
+.search-button{
+  width:70px;
+  margin-left:10px;
+  margin-right:10px;
+  vertical-align:top;	
+  font-size:12px;
+
+
+
+}
+
+
+
+.search-bg1 {
+	background-image: url('sousuo_01.gif');
+	height:85px;
+    width:13px;
+
+}
+
+.search-bg2
+{
+    background-image: url('sousuo_04.gif');
+    height: 43px;
+    width: 500px;
+	text-align:left ;    
+}
+
+.search-bg3 {
+	background-image: url('sousuo_09.gif');
+	height:42px;
+	vertical-align:top;	
+
+}
+
+.search-bg4 {
+	background-image: url('sousuo_05.gif');
+		height:43px;
+		width:49px;
+	
+}
+
+.search-bg5 {
+	background-image: url('sousuo_07.gif');
+		height:43px;
+		width:402px;
+		text-align:left ;
+}
+
+.search-bg6 {
+	background-image: url('sousuo_08.gif');
+		height:85px;
+		width:18px;
+}
+
+.booklist{
+ margin-top:5px;
+ margin-left:25px;
+ margin-right:10px;
+ margin-bottom:10px;
+}
+
+
+/*内页CSS样式表结束*/
+

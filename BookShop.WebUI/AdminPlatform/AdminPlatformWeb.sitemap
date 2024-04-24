@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode url="" title="后台管理">
+    <siteMapNode url="~/AdminPlatform/AdminDefault.aspx" title="首页"  description="" />
+    <siteMapNode url="" title="用户管理">
+      <siteMapNode url="~/AdminPlatform/UserList.aspx" title="用户列表">
+        <siteMapNode url="~/AdminPlatform/UserInfo.aspx" title="用户详细信息"></siteMapNode>
+        <siteMapNode url="~/AdminPlatform/UserRegister.aspx" title="新增用户"></siteMapNode>
+      </siteMapNode>
+    </siteMapNode>
+    <siteMapNode url="" title="图书分类管理">
+      <siteMapNode url="~/AdminPlatform/CategoryList.aspx" title="图书类别列表">
+      </siteMapNode>
+    </siteMapNode>
+    <siteMapNode url="" title="出版社管理">
+      <siteMapNode url="~/AdminPlatform/PublishersList.aspx" title="出版社列表">
+      </siteMapNode>
+    </siteMapNode>
+    <siteMapNode url="" title="图书管理">
+      <siteMapNode url="~/AdminPlatform/BookList.aspx" title="图书信息列表">
+        <siteMapNode url="~/AdminPlatform/BookDetails.aspx" title="图书详细信息"></siteMapNode>
+        <siteMapNode url="~/AdminPlatform/AddNewBook.aspx" title="新增图书"></siteMapNode>
+        <siteMapNode url="~/AdminPlatform/ModifyBook.aspx" title="修改图书信息"></siteMapNode>
+        <siteMapNode url="" title="删除图书"></siteMapNode>
+      </siteMapNode>
+    </siteMapNode>
+    <siteMapNode url="" title="订单管理">
+      <siteMapNode url="~/AdminPlatform/ShoppingCartList.aspx" title="订单列表">
+        <siteMapNode url="~/AdminPlatform/ShoppingCartDetails.aspx" title="订单详细信息"></siteMapNode>
+      </siteMapNode>
+    </siteMapNode>
+    <siteMapNode url="~/AdminPlatform/AdminLogin.aspx?c=0" title="退出系统" ></siteMapNode>
+  </siteMapNode>
+</siteMap>
+

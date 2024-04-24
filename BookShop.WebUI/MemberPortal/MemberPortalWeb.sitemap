@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode url="~/Default.aspx" title="书店首页"  description="" >
+    <siteMapNode url="~/MemberPortal/UserRegister.aspx" title="用户注册"></siteMapNode>
+    <siteMapNode url="~/MemberPortal/UserLogin.aspx" title="用户登录"></siteMapNode>
+    <siteMapNode url="~/MemberPortal/UserInfo.aspx" title="个人信息"></siteMapNode>
+    <siteMapNode url="" title="订单查询"></siteMapNode>
+    <siteMapNode url="~/MemberPortal/BookLists.aspx" title="图书列表页"></siteMapNode>
+    <siteMapNode url="~/MemberPortal/BookDetails.aspx" title="图书详情"></siteMapNode>
+    <siteMapNode url="~/MemberPortal/ShoppingCart.aspx" title="我的购物车"></siteMapNode>
+    <siteMapNode url="~/MemberPortal/Helper.aspx" title="帮助"></siteMapNode>
+    <siteMapNode url="~/MemberPortal/Settlement.aspx" title="购物提示页"></siteMapNode>
+  </siteMapNode>
+</siteMap>

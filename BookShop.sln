@@ -1,0 +1,69 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookShop.BLL", "BookShop.BLL\BookShop.BLL.csproj", "{A80FD4F2-5C4B-40F1-AD5C-E21527E41FCE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookShop.Common", "BookShop.Common\BookShop.Common.csproj", "{7CF99FAE-FCFD-4DE4-BEDA-64F16C60092C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookShop.DAL", "BookShop.DAL\BookShop.DAL.csproj", "{0FFAC9A3-ACDA-489E-8150-8F92218CABA1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookShop.Model", "BookShop.Model\BookShop.Model.csproj", "{A9527892-88C9-40B2-8DDB-1CC01DC76C3C}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "BookShop.WebUI", "BookShop.WebUI\", "{5F786475-DA11-40F2-BE2F-D2458A2D6875}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		ProjectReferences = "{a9527892-88c9-40b2-8ddb-1cc01dc76c3c}|BookShop.Model.dll;{a80fd4f2-5c4b-40f1-ad5c-e21527e41fce}|BookShop.BLL.dll;{7cf99fae-fcfd-4de4-beda-64f16c60092c}|BookShop.Common.dll;{0ffac9a3-acda-489e-8150-8f92218caba1}|BookShop.DAL.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/BookShop.WebUI"
+		Debug.AspNetCompiler.PhysicalPath = "BookShop.WebUI\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\BookShop.WebUI\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/BookShop.WebUI"
+		Release.AspNetCompiler.PhysicalPath = "BookShop.WebUI\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\BookShop.WebUI\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "3581"
+		SlnRelativePath = "BookShop.WebUI\"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A80FD4F2-5C4B-40F1-AD5C-E21527E41FCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A80FD4F2-5C4B-40F1-AD5C-E21527E41FCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A80FD4F2-5C4B-40F1-AD5C-E21527E41FCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A80FD4F2-5C4B-40F1-AD5C-E21527E41FCE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CF99FAE-FCFD-4DE4-BEDA-64F16C60092C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CF99FAE-FCFD-4DE4-BEDA-64F16C60092C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CF99FAE-FCFD-4DE4-BEDA-64F16C60092C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CF99FAE-FCFD-4DE4-BEDA-64F16C60092C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FFAC9A3-ACDA-489E-8150-8F92218CABA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FFAC9A3-ACDA-489E-8150-8F92218CABA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FFAC9A3-ACDA-489E-8150-8F92218CABA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FFAC9A3-ACDA-489E-8150-8F92218CABA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9527892-88C9-40B2-8DDB-1CC01DC76C3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9527892-88C9-40B2-8DDB-1CC01DC76C3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9527892-88C9-40B2-8DDB-1CC01DC76C3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9527892-88C9-40B2-8DDB-1CC01DC76C3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F786475-DA11-40F2-BE2F-D2458A2D6875}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F786475-DA11-40F2-BE2F-D2458A2D6875}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F786475-DA11-40F2-BE2F-D2458A2D6875}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F786475-DA11-40F2-BE2F-D2458A2D6875}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0A705654-ABBB-4424-B6B5-0FD363F88FA0}
+	EndGlobalSection
+EndGlobal

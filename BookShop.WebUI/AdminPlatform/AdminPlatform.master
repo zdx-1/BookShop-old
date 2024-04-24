@@ -1,0 +1,83 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="AdminPlatform.master.cs"
+    Inherits="Matsers_MemberProtal" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>网上书店后台管理系统</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<link href="images/main.css" rel="stylesheet" type="text/css" />
+<body>
+    <form id="form1" runat="server">
+    <!--头部开始-->
+    <div id="top">
+        <div id="logo" style="width: 357px">
+        </div>
+        <div id="user">
+            <span id="user_info">欢迎您:
+                <asp:Label ID="lblName" runat="server" Text=""></asp:Label>
+            </span><span id="user_IP">IP:
+                <asp:Label ID="lblIP" runat="server" Text=""></asp:Label>
+            </span>
+        </div>
+    </div>
+    <!--头部结束-->
+    <div>
+        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+                <td id="maintable_left">
+                    <!--左侧树开始-->
+                    <div id="left">
+                        <div id="left_menu">
+                        </div>
+                        <div id="left_tree">
+                            <div id="tree_text">
+                                <br />
+                                <asp:SiteMapDataSource ID="SiteMapDataSource1" SiteMapProvider="AdminPlatformWeb"
+                                    runat="server" />
+                                <asp:TreeView ID="TreeView1" DataSourceID="SiteMapDataSource1" MaxDataBindDepth="2"
+                                    ShowLines="true" Font-Size="Small" runat="server">
+                                </asp:TreeView>
+                            </div>
+                        </div>
+                        <div id="tree_down">
+                        </div>
+                    </div>
+                    <!--左侧树结束-->
+                </td>
+                <td id="maintable_right">
+                    <!--右侧顶部导航开始-->
+                    <div id="right_top">
+                        <div id="img">
+                            <img src="images/close.gif" /></div>
+                        <span class="imgtext"></span>
+                        <div id="loginout">
+                            <div id="loginoutimg">
+                                <img src="images/loginout.gif" width="26" /></div>
+                            <span style="margin-left: 5px;"><a style="font-size: 18px; vertical-align: text-bottom;
+                                font-weight: 700" href="AdminLogin.aspx" onclick="return value=confirm('你确定要退出吗？');Session.Abandon();">
+                                退出系统</a> </span>
+                        </div>
+                    </div>
+                    <div id="right_font">
+                        <img src="images/main_14.gif" /><span>您现在所在的位置：</span> <span>
+                            <asp:SiteMapPath ID="SiteMapPath1" SiteMapProvider="AdminPlatformWeb" runat="server">
+                            </asp:SiteMapPath>
+                        </span>
+                    </div>
+    </div>
+    <!--右侧顶部导航结束-->
+    <!--右侧内容开始-->
+    <div id="right_content">
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </div>
+    <!--右侧内容结束-->
+    </td> </tr> </table> </div>
+    </form>
+</body>
+</html>
