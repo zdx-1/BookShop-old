@@ -7,11 +7,11 @@ namespace BookShop.DAL
 {
     public static class CartService
     {
-        
+        //已确认
         #region 图书取值方法（购买图书流程过渡页）
 
         /// <summary>
-        /// 图书取值方法（购买图书流程过渡页） 
+        /// 图书取值方法（购买图书流程过渡页） //已确认
         /// </summary>
         /// <param name="id"></param>
         public static BooksInfo GetPageLoad(int id)

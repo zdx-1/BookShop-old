@@ -8,7 +8,7 @@ namespace BookShop.DAL
 {
     public static class UserRolesService
     {
-        
+        //已确认
         #region 成员权限查询
 
         /// <summary>
@@ -41,7 +41,7 @@ namespace BookShop.DAL
         }
 
         #endregion
-        
+        //已确认
         #region  显示用户权限颜色转换前的读取状态编号的方法
 
         /// <summary>

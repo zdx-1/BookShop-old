@@ -8,7 +8,7 @@ namespace BookShop.DAL
 {
     public static class UserStatesService
     {
-        
+        //已确认
         #region 成员状态查询
 
         /// <summary>
@@ -42,7 +42,7 @@ namespace BookShop.DAL
 
         #endregion
 
-        
+        //已确认
         #region  显示用户状态颜色转换前的读取状态编号的方法
 
         /// <summary>

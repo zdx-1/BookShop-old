@@ -11,7 +11,7 @@ namespace BookShop.DAL
 
         #region 前台
         #endregion
-        
+        //已修改
         #region 出版社前10查询
 
         /// <summary>
@@ -41,7 +41,7 @@ namespace BookShop.DAL
         }
 
         #endregion
-        
+        //已修改
         #region 出版社查询
 
         /// <summary>
@@ -77,7 +77,7 @@ namespace BookShop.DAL
 
         #region 后台
         #endregion
-        
+        //已修改
         #region  AspNetPager控件分页数获取方法 （出版社浏览）
 
         /// <summary>
@@ -106,7 +106,7 @@ namespace BookShop.DAL
         }
 
         #endregion
-        
+        //已修改
         #region  初始化出版社浏览方法
 
         /// <summary>
@@ -139,7 +139,7 @@ namespace BookShop.DAL
         }
 
         #endregion
-        
+        //已确认
         #region  出版社逻辑删除方法
 
         /// <summary>
@@ -164,7 +164,7 @@ namespace BookShop.DAL
         }
 
         #endregion
-        
+        //已确认
         #region  出版社物理删除方法
 
         /// <summary>
@@ -189,7 +189,7 @@ namespace BookShop.DAL
         }
 
         #endregion
-        
+        //已确认
         #region  出版社添加时执行判断是否已有值
 
         /// <summary>
@@ -219,7 +219,7 @@ namespace BookShop.DAL
         }
 
         #endregion
-        
+        //已确认
         #region  出版社添加方法
 
         /// <summary>
@@ -246,7 +246,7 @@ namespace BookShop.DAL
         }
 
         #endregion
-        
+        //已确认
         #region  出版社编辑时执行判断
 
         /// <summary>
@@ -276,7 +276,7 @@ namespace BookShop.DAL
         }
 
         #endregion
-        
+        //已确认
         #region  出版社编辑方法
 
         /// <summary>
@@ -304,7 +304,7 @@ namespace BookShop.DAL
         }
 
         #endregion
-        
+        //已确认
         #region 出版社绑定显示
 
         /// <summary>

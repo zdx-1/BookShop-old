@@ -26,7 +26,7 @@
         }
         #center
         {
-            width: 300px;
+            width: 300;
             float: left;
             padding: 3px 10px 3px 15px;
             margin: 3px 10px 3px 15px;
@@ -35,7 +35,7 @@
         {
             width: 550px;
             float: left;
-            padding: 0px 10px 10px 10px;
+            padding: 0px 10px 10px 10pxs;
             margin: 0px 10px 10px 10px;
         }
         .pinpai
@@ -95,7 +95,7 @@
                                     <tr>
                                         <td class="img6c" style="text-align: left">
                                             <a href="BookDetails.aspx?BookId=<%#Eval("Id") %>">
-                                                <img alt="" id="Img6" src='<%#Eval("ImgUrl","{0}")%>' width="118" height="150" runat="server" /></a>
+                                                <img id="Img6" src='<%#Eval("ImgUrl","{0}")%>' width="118" height="150" runat="server" /></a>
                                         </td>
                                         <td>
                                             <table class="border-rb">
