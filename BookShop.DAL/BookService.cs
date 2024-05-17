@@ -11,10 +11,10 @@ namespace BookShop.DAL
     {
         #region 前台
         #endregion
-        //已修改
+        
         #region 最热图书获取前4本信息 
         /// <summary>
-        /// 最热图书获取前4本信息 //已修改
+        /// 最热图书获取前4本信息 
         /// </summary>
         /// <param name="source"></param>
         /// <param name="e"></param>
@@ -45,11 +45,11 @@ namespace BookShop.DAL
         }
 
         #endregion
-        //已修改
+        
         #region  编辑推荐图书获取1本信息
 
         /// <summary>
-        /// 编辑推荐图书获取1本信息 //已修改
+        /// 编辑推荐图书获取1本信息 
         /// </summary>
         /// <param name="source"></param>
         /// <param name="e"></param>
@@ -81,11 +81,11 @@ namespace BookShop.DAL
         }
 
         #endregion
-        //已修改
+        
         #region  最新图书获取8本信息
 
         /// <summary>
-        /// 最新图书获取8本信息  //已修改
+        /// 最新图书获取8本信息  
         /// </summary>
         /// <returns>返回List</returns>
         public static List<BooksInfo> GetNewBooksList()
@@ -115,11 +115,11 @@ namespace BookShop.DAL
         }
 
         #endregion
-        //已修改
+        
         #region 点击率排行榜前10位图书信息
 
         /// <summary>
-        /// 点击率排行榜前10位图书信息  //已修改
+        /// 点击率排行榜前10位图书信息  
         /// </summary>
         /// <returns></returns>
         public static List<BooksInfo> GetClicks()
@@ -148,11 +148,11 @@ namespace BookShop.DAL
         }
 
         #endregion
-        //已修改
+        
         #region  AspNetPager控件分页数获取方法（前台图书浏览页）
 
         /// <summary>
-        /// AspNetPager控件分页数获取方法    //已修改
+        /// AspNetPager控件分页数获取方法    
         /// </summary>
         /// <returns></returns>
         public static int GetAspNetPager_PageCount(string logicId, string whereName, int x)   //x为0时说明浏览所有图书页数获取方法
@@ -242,11 +242,11 @@ namespace BookShop.DAL
         }
 
         #endregion
-        //已修改
+        
         #region 浏览图书信息（图书浏览页）
 
         /// <summary>
-        /// 浏览图书绑定到DataList控件dlsBook上显示 //已修改
+        /// 浏览图书绑定到DataList控件dlsBook上显示 
         /// </summary>
         /// <param name="logicId">所取参数Id，可取的有：CatId、PubId,没有指定默认为string类型："0"字符</param>
         /// <param name="whereName">指定按什么方式排序，不排序为string类型："0"字符</param>
@@ -495,7 +495,7 @@ namespace BookShop.DAL
         }
 
         #endregion
-        //已确认
+        
         #region 点击某一本图书点击率加1方法
 
         /// <summary>
@@ -511,7 +511,7 @@ namespace BookShop.DAL
         }
 
         #endregion
-        //已修改
+        
         #region  图书详细信息浏览（图书详细页）
 
         /// <summary>
@@ -560,7 +560,7 @@ namespace BookShop.DAL
 
         #region 后台
         #endregion
-        //已确认
+        
         #region  删除前判断图书表内是否已有关联的方法
 
         /// <summary>
@@ -594,7 +594,7 @@ namespace BookShop.DAL
         }
 
         #endregion
-        //已确认
+        
         #region  删除前判断出版社表内是否已有关联的方法
 
         /// <summary>
@@ -628,7 +628,7 @@ namespace BookShop.DAL
         }
 
         #endregion
-        //已确认
+        
         #region 订单表会员编号关联查询 （后台订单详细表浏览）
 
         /// <summary>
@@ -661,7 +661,7 @@ namespace BookShop.DAL
         }
 
         #endregion
-        //已修改
+        
         #region  AspNetPager控件分页数获取方法  （后台图书浏览页）
 
         /// <summary>
@@ -718,7 +718,7 @@ namespace BookShop.DAL
         }
 
         #endregion
-        //已修改
+        
         #region  初始化图书浏览方法
 
         /// <param name="sender"></param>
@@ -793,7 +793,7 @@ namespace BookShop.DAL
         }
 
         #endregion
-        //已确认
+        
         #region  图书物理删除方法
 
         /// <summary>
@@ -818,7 +818,7 @@ namespace BookShop.DAL
         }
 
         #endregion
-        //已确认
+        
         #region  图书逻辑删除方法
 
         /// <summary>
@@ -843,7 +843,7 @@ namespace BookShop.DAL
         }
 
         #endregion
-        //已确认
+        
         #region  新增图书方法
 
         /// <summary>
@@ -893,7 +893,7 @@ namespace BookShop.DAL
         }
 
         #endregion
-        //已确认
+        
         #region  判断图书名称或ISBN是否已存在
 
         /// <summary>
@@ -929,7 +929,7 @@ namespace BookShop.DAL
         }
 
         #endregion
-        //已确认
+        
         #region 初始化绑定页面类别和出版社DropDownList控件的值，并初始化页面控件属性的方法
 
         /// <summary>

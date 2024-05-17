@@ -13,7 +13,7 @@ namespace BookShop.DAL
 
         #region （前台）
         #endregion
-        //已确认
+        
         #region 图书分类绑定显示
 
         /// <summary>
@@ -43,7 +43,7 @@ namespace BookShop.DAL
         }
 
         #endregion
-        //已确认
+        
         #region 图书分类查询
 
         /// <summary>
@@ -79,11 +79,11 @@ namespace BookShop.DAL
 
         #region 后台
         #endregion
-        //已修改
+        
         #region  AspNetPager控件分页数获取方法 （图书分类浏览）
 
         /// <summary>
-        /// AspNetPager控件分页数获取方法    //已修改
+        /// AspNetPager控件分页数获取方法    
         /// </summary>
         /// <returns></returns>
         public static int GetAspNetPager_PageCount()
@@ -105,7 +105,7 @@ namespace BookShop.DAL
         }
 
         #endregion
-        //已修改
+        
         #region  初始化图书分类浏览方法
 
         /// <summary>
@@ -139,11 +139,11 @@ namespace BookShop.DAL
         }
 
         #endregion
-        //已确认
+        
         #region  图书分类逻辑删除方法
 
         /// <summary>
-        /// 图书分类逻辑删除方法  //已确认
+        /// 图书分类逻辑删除方法  
         /// </summary>
         /// <param name="id"></param>
         public static bool LogicDeleteBooksCategoryById(int id)
@@ -164,7 +164,7 @@ namespace BookShop.DAL
         }
 
         #endregion
-        //已修改
+        
         #region  图书分类物理删除方法
 
         /// <summary>
@@ -195,7 +195,7 @@ namespace BookShop.DAL
         }
 
         #endregion
-        //已确认
+        
         #region  图书分类添加时执行判断是否已有值
 
         /// <summary>
@@ -229,7 +229,7 @@ namespace BookShop.DAL
         }
 
         #endregion
-        //已确认
+        
         #region  图书分类添加方法
 
         /// <summary>
@@ -256,7 +256,7 @@ namespace BookShop.DAL
         }
 
         #endregion
-        //已确认
+        
         #region  图书分类编辑时执行判断
 
         /// <summary>
@@ -290,7 +290,7 @@ namespace BookShop.DAL
         }
 
         #endregion
-        //已确认
+        
         #region  图书分类编辑方法
 
         /// <summary>

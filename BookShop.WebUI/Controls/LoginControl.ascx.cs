@@ -73,7 +73,7 @@ public partial class Controls_LoginControl : System.Web.UI.UserControl
         {
             string loginId = txtLoginId.Text.Trim();   //定义变量、获取客户输入用户名，并调用MD5方法加密密码。
            // string loginPwd = MD5(txtLoginPwd.Text.Trim(), 32);
-             string loginPwd = txtLoginPwd.Text.Trim();
+            string loginPwd = txtLoginPwd.Text.Trim();
             int errId=UserManager.CheckValidUser(loginId, loginPwd);
             if (errId > 0)     //调用CheckValidUser方法判断登录是否成功并返回1
             {

@@ -11,7 +11,7 @@ namespace BookShop.DAL
     {
         #region 前台部分
         #endregion
-        //已确认
+        
         #region (前台）登录是否成功判断方法
         /// <summary>
         /// 登录是否成功判断方法
@@ -76,7 +76,7 @@ namespace BookShop.DAL
         }
 
         #endregion
-        //已确认
+        
         #region 个人信息显示
 
         /// <summary>
@@ -116,7 +116,7 @@ namespace BookShop.DAL
         }
 
         #endregion
-        //已确认
+        
         #region （前台）检验输入用户名是否已存在方法
 
         /// <summary>
@@ -152,7 +152,7 @@ namespace BookShop.DAL
         }
 
         #endregion
-        //已确认
+        
         #region 用户注册方法
 
         /// <summary>
@@ -189,7 +189,7 @@ namespace BookShop.DAL
         }
 
         #endregion
-        //已确认
+        
         #region  获取Users表内个人的主键的方法
 
         /// <summary>
@@ -222,7 +222,7 @@ namespace BookShop.DAL
         }
 
         #endregion
-        //已确认   //存在问题 
+        //存在问题 
         #region  修改密码方法
 
         /// <summary>
@@ -253,7 +253,7 @@ namespace BookShop.DAL
 
         #region 后台部分
         #endregion
-        //已确认
+        
         #region  校验用户合法性。
 
         /// <summary>
@@ -304,7 +304,7 @@ namespace BookShop.DAL
         }
 
         #endregion
-        //已修改
+        
         #region  AspNetPager控件分页数获取方法
 
         /// <summary>
@@ -334,7 +334,7 @@ namespace BookShop.DAL
         }
 
         #endregion
-        //已修改
+        
         #region  初始化用户浏览方法
 
         /// <summary>
@@ -375,7 +375,7 @@ namespace BookShop.DAL
         }
 
         #endregion    
-        //已修改
+        
         #region  用户删除方法
 
         /// <summary>
@@ -398,7 +398,7 @@ namespace BookShop.DAL
         }
 
         #endregion
-        //已确认
+        
         #region  用户编辑前判断状态方法
 
         /// <summary>
@@ -425,7 +425,7 @@ namespace BookShop.DAL
         }
 
         #endregion
-        //已修改
+        
         #region  用户编辑方法
 
         /// <summary>
@@ -472,7 +472,7 @@ namespace BookShop.DAL
         }
 
         #endregion
-        //已确认
+        
         #region 订单表会员编号关联查询 （后台订单表浏览）
 
         /// <summary>

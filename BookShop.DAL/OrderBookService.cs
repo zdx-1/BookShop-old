@@ -12,7 +12,7 @@ namespace BookShop.DAL
 
         #region 前台
         #endregion
-        //已确认
+        
         #region  点击结算OrderBooks表添加记录的方法
 
         /// <summary>
@@ -46,7 +46,7 @@ namespace BookShop.DAL
 
         #region 后台
         #endregion
-        //已修改
+        
         #region  AspNetPager控件分页数获取方法 （后台订单详细信息浏览）
 
         /// <summary>
@@ -76,7 +76,7 @@ namespace BookShop.DAL
         }
 
         #endregion
-        //已修改
+        
         #region  初始化订单详细信息浏览
 
         /// <summary>
@@ -114,7 +114,7 @@ namespace BookShop.DAL
         }
 
         #endregion
-        //已确认
+        
         #region  删除前判断订单表内是否已有关联的方法
 
         /// <summary>

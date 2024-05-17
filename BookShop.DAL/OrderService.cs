@@ -11,7 +11,7 @@ namespace BookShop.DAL
     {
         #region 前台
         #endregion
-        //已修改
+        
         #region  对订单表Orders表添加记录方法
 
         /// <summary>
@@ -41,7 +41,7 @@ namespace BookShop.DAL
         }
 
         #endregion
-        //已修改
+        
         #region  获取刚添加订单表Oders表内记录的主键的方法
 
         /// <summary>
@@ -79,7 +79,7 @@ namespace BookShop.DAL
 
         #region 后台
         #endregion
-        //已修改
+        
         #region  AspNetPager控件分页数获取方法
 
         /// <summary>
@@ -106,7 +106,7 @@ namespace BookShop.DAL
         }
 
         #endregion
-        //已修改
+        
         #region  初始化用户浏览方法
 
         /// <summary>
